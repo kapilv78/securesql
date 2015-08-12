@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Columns>
+  <Column name="dbo.CUSTOMER.c_credit_lim" encryption="RandomizedEncryption">
+    <DataType>
+      <SqlDataType>Money</SqlDataType>
+      <Name>money</Name>
+      <Schema />
+      <MaximumLength>8</MaximumLength>
+      <NumericPrecision>19</NumericPrecision>
+      <NumericScale>4</NumericScale>
+      <XmlDocumentConstraint>Default</XmlDocumentConstraint>
+    </DataType>
+  </Column>
+  <Column name="dbo.CUSTOMER.c_ytd_payment" encryption="RandomizedEncryption">
+    <DataType>
+      <SqlDataType>Money</SqlDataType>
+      <Name>money</Name>
+      <Schema />
+      <MaximumLength>8</MaximumLength>
+      <NumericPrecision>19</NumericPrecision>
+      <NumericScale>4</NumericScale>
+      <XmlDocumentConstraint>Default</XmlDocumentConstraint>
+    </DataType>
+  </Column>
+  <Column name="dbo.CUSTOMER.c_payment_cnt" encryption="RandomizedEncryption">
+    <DataType>
+      <SqlDataType>SmallInt</SqlDataType>
+      <Name>smallint</Name>
+      <Schema />
+      <MaximumLength>2</MaximumLength>
+      <NumericPrecision>5</NumericPrecision>
+      <NumericScale>0</NumericScale>
+      <XmlDocumentConstraint>Default</XmlDocumentConstraint>
+    </DataType>
+  </Column>
+  <Column name="dbo.CUSTOMER.c_delivery_cnt" encryption="RandomizedEncryption">
+    <DataType>
+      <SqlDataType>SmallInt</SqlDataType>
+      <Name>smallint</Name>
+      <Schema />
+      <MaximumLength>2</MaximumLength>
+      <NumericPrecision>5</NumericPrecision>
+      <NumericScale>0</NumericScale>
+      <XmlDocumentConstraint>Default</XmlDocumentConstraint>
+    </DataType>
+  </Column>
+  <Column name="dbo.CUSTOMER.c_street_1" encryption="RandomizedEncryption">
+    <DataType>
+      <SqlDataType>Char</SqlDataType>
+      <Name>char</Name>
+      <Schema />
+      <MaximumLength>20</MaximumLength>
+      <NumericPrecision>0</NumericPrecision>
+      <NumericScale>0</NumericScale>
+      <XmlDocumentConstraint>Default</XmlDocumentConstraint>
+    </DataType>
+  </Column>
+  <Column name="dbo.CUSTOMER.c_street_2" encryption="RandomizedEncryption">
+    <DataType>
+      <SqlDataType>Char</SqlDataType>
+      <Name>char</Name>
+      <Schema />
+      <MaximumLength>20</MaximumLength>
+      <NumericPrecision>0</NumericPrecision>
+      <NumericScale>0</NumericScale>
+      <XmlDocumentConstraint>Default</XmlDocumentConstraint>
+    </DataType>
+  </Column>
+  <Column name="dbo.CUSTOMER.c_city" encryption="RandomizedEncryption">
+    <DataType>
+      <SqlDataType>Char</SqlDataType>
+      <Name>char</Name>
+      <Schema />
+      <MaximumLength>20</MaximumLength>
+      <NumericPrecision>0</NumericPrecision>
+      <NumericScale>0</NumericScale>
+      <XmlDocumentConstraint>Default</XmlDocumentConstraint>
+    </DataType>
+  </Column>
+  <Column name="dbo.CUSTOMER.c_state" encryption="RandomizedEncryption">
+    <DataType>
+      <SqlDataType>Char</SqlDataType>
+      <Name>char</Name>
+      <Schema />
+      <MaximumLength>2</MaximumLength>
+      <NumericPrecision>0</NumericPrecision>
+      <NumericScale>0</NumericScale>
+      <XmlDocumentConstraint>Default</XmlDocumentConstraint>
+    </DataType>
+  </Column>
+  <Column name="dbo.CUSTOMER.c_zip" encryption="RandomizedEncryption">
+    <DataType>
+      <SqlDataType>Char</SqlDataType>
+      <Name>char</Name>
+      <Schema />
+      <MaximumLength>9</MaximumLength>
+      <NumericPrecision>0</NumericPrecision>
+      <NumericScale>0</NumericScale>
+      <XmlDocumentConstraint>Default</XmlDocumentConstraint>
+    </DataType>
+  </Column>
+  <Column name="dbo.CUSTOMER.c_phone" encryption="RandomizedEncryption">
+    <DataType>
+      <SqlDataType>Char</SqlDataType>
+      <Name>char</Name>
+      <Schema />
+      <MaximumLength>16</MaximumLength>
+      <NumericPrecision>0</NumericPrecision>
+      <NumericScale>0</NumericScale>
+      <XmlDocumentConstraint>Default</XmlDocumentConstraint>
+    </DataType>
+  </Column>
+  <Column name="dbo.CUSTOMER.c_since" encryption="RandomizedEncryption">
+    <DataType>
+      <SqlDataType>DateTime</SqlDataType>
+      <Name>datetime</Name>
+      <Schema />
+      <MaximumLength>8</MaximumLength>
+      <NumericPrecision>23</NumericPrecision>
+      <NumericScale>3</NumericScale>
+      <XmlDocumentConstraint>Default</XmlDocumentConstraint>
+    </DataType>
+  </Column>
+  <Column name="dbo.CUSTOMER.c_middle" encryption="RandomizedEncryption">
+    <DataType>
+      <SqlDataType>Char</SqlDataType>
+      <Name>char</Name>
+      <Schema />
+      <MaximumLength>2</MaximumLength>
+      <NumericPrecision>0</NumericPrecision>
+      <NumericScale>0</NumericScale>
+      <XmlDocumentConstraint>Default</XmlDocumentConstraint>
+    </DataType>
+  </Column>
+  <Column name="dbo.CUSTOMER.c_first" encryption="RandomizedEncryption">
+    <DataType>
+      <SqlDataType>Char</SqlDataType>
+      <Name>char</Name>
+      <Schema />
+      <MaximumLength>16</MaximumLength>
+      <NumericPrecision>0</NumericPrecision>
+      <NumericScale>0</NumericScale>
+      <XmlDocumentConstraint>Default</XmlDocumentConstraint>
+    </DataType>
+  </Column>
+  <Column name="dbo.CUSTOMER.c_balance" encryption="RandomizedEncryption">
+    <DataType>
+      <SqlDataType>Money</SqlDataType>
+      <Name>money</Name>
+      <Schema />
+      <MaximumLength>8</MaximumLength>
+      <NumericPrecision>19</NumericPrecision>
+      <NumericScale>4</NumericScale>
+      <XmlDocumentConstraint>Default</XmlDocumentConstraint>
+    </DataType>
+  </Column>
+  <Column name="dbo.CUSTOMER.c_last" encryption="DeterministicEncryption">
+    <DataType>
+      <SqlDataType>Char</SqlDataType>
+      <Name>char</Name>
+      <Schema />
+      <MaximumLength>16</MaximumLength>
+      <NumericPrecision>0</NumericPrecision>
+      <NumericScale>0</NumericScale>
+      <XmlDocumentConstraint>Default</XmlDocumentConstraint>
+    </DataType>
+  </Column>
+  <Column name="dbo.CUSTOMER.c_credit" encryption="DeterministicEncryption">
+    <DataType>
+      <SqlDataType>Char</SqlDataType>
+      <Name>char</Name>
+      <Schema />
+      <MaximumLength>2</MaximumLength>
+      <NumericPrecision>0</NumericPrecision>
+      <NumericScale>0</NumericScale>
+      <XmlDocumentConstraint>Default</XmlDocumentConstraint>
+    </DataType>
+  </Column>
+</Columns>
